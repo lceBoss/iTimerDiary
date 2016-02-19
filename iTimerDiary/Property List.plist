@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict/>
+	<dict>
+		<key>soundFile</key>
+		<string></string>
+		<key>photos</key>
+		<array>
+			<string>照片1</string>
+			<string>照片2</string>
+		</array>
+		<key>paper_icon</key>
+		<string>paper_icon1</string>
+		<key>kind_icon</key>
+		<string>kind_icon1</string>
+		<key>weather_icon</key>
+		<string>weather_icon1</string>
+		<key>date</key>
+		<string>2015-12-21 13:18:56 +0000</string>
+	</dict>
+</array>
+</plist>

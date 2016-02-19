@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1477BD1BF82AEE2358DB2FE067E994D3 /* RACollectionViewTripletLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = ED8EE6695D5607F5D655F70D8494BFE8 /* RACollectionViewTripletLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25CC6B4A91BD06E1BE61C160F80F1B25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCF8357A56A453683BCDC735DB2F3AA /* Foundation.framework */; };
+		4CB5EAC25450E244DFCA9A5E46AF9BAB /* RACollectionViewReorderableTripletLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 778AB0692F02B24D612D9518F397538A /* RACollectionViewReorderableTripletLayout.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		592090CB5C6AF95A14F3BC50E8B86D35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCF8357A56A453683BCDC735DB2F3AA /* Foundation.framework */; };
+		74E9BA60C112FDF897956FD760B38767 /* RACollectionViewReorderableTripletLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A38D8E30CECF617B858EE5DF21B6C58 /* RACollectionViewReorderableTripletLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD63A0C56DFFCEE942FF269A6384C8D2 /* RACollectionViewTripletLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CF1AFEC122C477C514954938E6A36D /* RACollectionViewTripletLayout.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C2039E8CA535D7D36E709C398C045E2D /* ZYQAssetPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEDFC721EB80A8736E62B91B9BAA13F /* ZYQAssetPickerController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E418DA582B42D13EBEC27B91558C5BE0 /* Pods-iTimerDiary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C94A2965DE30501F9E86BD82EAE6A972 /* Pods-iTimerDiary-dummy.m */; };
+		E7125CE1EA72D820121E5A4E067B4F2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCF8357A56A453683BCDC735DB2F3AA /* Foundation.framework */; };
+		F47DC40F96B5365B6DAD5C7876692CEA /* ZYQAssetPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A9CFFA50EE7BC7C5694F159C87D9CB2 /* ZYQAssetPickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5C28D0F0F730F65BD6D8A1AD93A762A /* RACollectionViewReorderableTripletLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E161EB72B1BAD505B81FE09A24BE8C /* RACollectionViewReorderableTripletLayout-dummy.m */; };
+		FACDDFE0289B3F278DA8BA098FB46FFE /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190A9471EB3F9A59B44144B1A0DCED96 /* AssetsLibrary.framework */; };
+		FDDC9323782594161739A04373A3C7BB /* ZYQAssetPickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9467BE9B5EABADDB8E030926ADF2FFC2 /* ZYQAssetPickerController-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC0552408D5280B1159742E2DB049428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D3113D831DB4CE6D763A7B33A04A298;
+			remoteInfo = RACollectionViewReorderableTripletLayout;
+		};
+		CB700173C33F3FA5BE64E506D63E1610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8F2A3D2FD9C1AD4FDC4CDAA274BDDBE;
+			remoteInfo = ZYQAssetPickerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		072324CC8C61E4A2DACB03B18EAB2515 /* Pods-iTimerDiary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iTimerDiary.release.xcconfig"; sourceTree = "<group>"; };
+		149FE5152522F548C164088DB72FB313 /* libRACollectionViewReorderableTripletLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRACollectionViewReorderableTripletLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		152798BF3DAEE66266246974111CAC84 /* Pods-iTimerDiary-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iTimerDiary-resources.sh"; sourceTree = "<group>"; };
+		190A9471EB3F9A59B44144B1A0DCED96 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		1AEDFC721EB80A8736E62B91B9BAA13F /* ZYQAssetPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZYQAssetPickerController.m; path = ZYQAssetPickerController/ZYQAssetPickerController.m; sourceTree = "<group>"; };
+		1DA01C61B47269EE084FE4CC31045A67 /* Pods-iTimerDiary-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iTimerDiary-acknowledgements.markdown"; sourceTree = "<group>"; };
+		44CF1AFEC122C477C514954938E6A36D /* RACollectionViewTripletLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACollectionViewTripletLayout.m; path = RACollectionViewReorderableTripletLayout/RACollectionViewTripletLayout.m; sourceTree = "<group>"; };
+		4729EB2A35881261BC633E6539271665 /* Pods-iTimerDiary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iTimerDiary.debug.xcconfig"; sourceTree = "<group>"; };
+		4A9CFFA50EE7BC7C5694F159C87D9CB2 /* ZYQAssetPickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZYQAssetPickerController.h; path = ZYQAssetPickerController/ZYQAssetPickerController.h; sourceTree = "<group>"; };
+		5BD0CE7C5D3CAA5D423E8972A55CAC69 /* ZYQAssetPickerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZYQAssetPickerController.xcconfig; sourceTree = "<group>"; };
+		5CD2EA0A6FE7C3E5A57EEDBA4C3599F1 /* libZYQAssetPickerController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZYQAssetPickerController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6101CED6EF2CABE13B54F3EA304381CE /* libPods-iTimerDiary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iTimerDiary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69760C5D0AA9F9A2B159C9A4AC9FE199 /* Pods-iTimerDiary-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iTimerDiary-acknowledgements.plist"; sourceTree = "<group>"; };
+		6FCF8357A56A453683BCDC735DB2F3AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		761FF43E39C9759FC4536312426BF03D /* ZYQAssetPicker.Bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ZYQAssetPicker.Bundle; path = ZYQAssetPickerController/ZYQAssetPicker.Bundle; sourceTree = "<group>"; };
+		778AB0692F02B24D612D9518F397538A /* RACollectionViewReorderableTripletLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACollectionViewReorderableTripletLayout.m; path = RACollectionViewReorderableTripletLayout/RACollectionViewReorderableTripletLayout.m; sourceTree = "<group>"; };
+		8A38D8E30CECF617B858EE5DF21B6C58 /* RACollectionViewReorderableTripletLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACollectionViewReorderableTripletLayout.h; path = RACollectionViewReorderableTripletLayout/RACollectionViewReorderableTripletLayout.h; sourceTree = "<group>"; };
+		9467BE9B5EABADDB8E030926ADF2FFC2 /* ZYQAssetPickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZYQAssetPickerController-dummy.m"; sourceTree = "<group>"; };
+		974DF612B189E88E59AB920E7A1033F9 /* ZYQAssetPickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYQAssetPickerController-prefix.pch"; sourceTree = "<group>"; };
+		A3E2AE82485E54E503C486B2FF24CF06 /* Pods-iTimerDiary-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iTimerDiary-frameworks.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C1E161EB72B1BAD505B81FE09A24BE8C /* RACollectionViewReorderableTripletLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RACollectionViewReorderableTripletLayout-dummy.m"; sourceTree = "<group>"; };
+		C94A2965DE30501F9E86BD82EAE6A972 /* Pods-iTimerDiary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iTimerDiary-dummy.m"; sourceTree = "<group>"; };
+		D44C5BFC4444EE99EA49134072346994 /* RACollectionViewReorderableTripletLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RACollectionViewReorderableTripletLayout-prefix.pch"; sourceTree = "<group>"; };
+		ED8EE6695D5607F5D655F70D8494BFE8 /* RACollectionViewTripletLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACollectionViewTripletLayout.h; path = RACollectionViewReorderableTripletLayout/RACollectionViewTripletLayout.h; sourceTree = "<group>"; };
+		F99057504AE3F85A063DDBFFB739FF26 /* RACollectionViewReorderableTripletLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RACollectionViewReorderableTripletLayout.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E892A43491FA6C84AA349BB3A5FBEB5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACDDFE0289B3F278DA8BA098FB46FFE /* AssetsLibrary.framework in Frameworks */,
+				E7125CE1EA72D820121E5A4E067B4F2A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB623270441545A48BE1683333A928B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25CC6B4A91BD06E1BE61C160F80F1B25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28F206FA6C6FE16580534119C443696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				592090CB5C6AF95A14F3BC50E8B86D35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		081BF567DA9B8B558332EED4E2220CF9 /* RACollectionViewReorderableTripletLayout */ = {
+			isa = PBXGroup;
+			children = (
+				8A38D8E30CECF617B858EE5DF21B6C58 /* RACollectionViewReorderableTripletLayout.h */,
+				778AB0692F02B24D612D9518F397538A /* RACollectionViewReorderableTripletLayout.m */,
+				ED8EE6695D5607F5D655F70D8494BFE8 /* RACollectionViewTripletLayout.h */,
+				44CF1AFEC122C477C514954938E6A36D /* RACollectionViewTripletLayout.m */,
+				DE98F71F6B290C6DDF83D5767B755572 /* Support Files */,
+			);
+			path = RACollectionViewReorderableTripletLayout;
+			sourceTree = "<group>";
+		};
+		0D355F7FAF7C990B7CDB7D20CE3FEB2B /* Pods-iTimerDiary */ = {
+			isa = PBXGroup;
+			children = (
+				1DA01C61B47269EE084FE4CC31045A67 /* Pods-iTimerDiary-acknowledgements.markdown */,
+				69760C5D0AA9F9A2B159C9A4AC9FE199 /* Pods-iTimerDiary-acknowledgements.plist */,
+				C94A2965DE30501F9E86BD82EAE6A972 /* Pods-iTimerDiary-dummy.m */,
+				A3E2AE82485E54E503C486B2FF24CF06 /* Pods-iTimerDiary-frameworks.sh */,
+				152798BF3DAEE66266246974111CAC84 /* Pods-iTimerDiary-resources.sh */,
+				4729EB2A35881261BC633E6539271665 /* Pods-iTimerDiary.debug.xcconfig */,
+				072324CC8C61E4A2DACB03B18EAB2515 /* Pods-iTimerDiary.release.xcconfig */,
+			);
+			name = "Pods-iTimerDiary";
+			path = "Target Support Files/Pods-iTimerDiary";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A78EDB62624AF2EBC9364FAE146D0E24 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				978E1F5554E1C0CAC81DDE5E936FCC4C /* Pods */,
+				D915FAD4907363C364A8F29CCB6D2378 /* Products */,
+				EDE2454DC0C5139F78721C243D41032F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		978E1F5554E1C0CAC81DDE5E936FCC4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				081BF567DA9B8B558332EED4E2220CF9 /* RACollectionViewReorderableTripletLayout */,
+				FD59F5D1F6F94B564005CDD38BDE5C33 /* ZYQAssetPickerController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A78EDB62624AF2EBC9364FAE146D0E24 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				190A9471EB3F9A59B44144B1A0DCED96 /* AssetsLibrary.framework */,
+				6FCF8357A56A453683BCDC735DB2F3AA /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B5F4C7F847BF21524AA414CACC1626D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				761FF43E39C9759FC4536312426BF03D /* ZYQAssetPicker.Bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D915FAD4907363C364A8F29CCB6D2378 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6101CED6EF2CABE13B54F3EA304381CE /* libPods-iTimerDiary.a */,
+				149FE5152522F548C164088DB72FB313 /* libRACollectionViewReorderableTripletLayout.a */,
+				5CD2EA0A6FE7C3E5A57EEDBA4C3599F1 /* libZYQAssetPickerController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE98F71F6B290C6DDF83D5767B755572 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F99057504AE3F85A063DDBFFB739FF26 /* RACollectionViewReorderableTripletLayout.xcconfig */,
+				C1E161EB72B1BAD505B81FE09A24BE8C /* RACollectionViewReorderableTripletLayout-dummy.m */,
+				D44C5BFC4444EE99EA49134072346994 /* RACollectionViewReorderableTripletLayout-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RACollectionViewReorderableTripletLayout";
+			sourceTree = "<group>";
+		};
+		EDE2454DC0C5139F78721C243D41032F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D355F7FAF7C990B7CDB7D20CE3FEB2B /* Pods-iTimerDiary */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F59B5B3C337C2EF5F79CD3C865E884BD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BD0CE7C5D3CAA5D423E8972A55CAC69 /* ZYQAssetPickerController.xcconfig */,
+				9467BE9B5EABADDB8E030926ADF2FFC2 /* ZYQAssetPickerController-dummy.m */,
+				974DF612B189E88E59AB920E7A1033F9 /* ZYQAssetPickerController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZYQAssetPickerController";
+			sourceTree = "<group>";
+		};
+		FD59F5D1F6F94B564005CDD38BDE5C33 /* ZYQAssetPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				4A9CFFA50EE7BC7C5694F159C87D9CB2 /* ZYQAssetPickerController.h */,
+				1AEDFC721EB80A8736E62B91B9BAA13F /* ZYQAssetPickerController.m */,
+				B5F4C7F847BF21524AA414CACC1626D6 /* Resources */,
+				F59B5B3C337C2EF5F79CD3C865E884BD /* Support Files */,
+			);
+			path = ZYQAssetPickerController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7F8D9A8F79C4BFCB20771CB9A2F1AB21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F47DC40F96B5365B6DAD5C7876692CEA /* ZYQAssetPickerController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22A4432036530EE0C20D263927EC691 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E9BA60C112FDF897956FD760B38767 /* RACollectionViewReorderableTripletLayout.h in Headers */,
+				1477BD1BF82AEE2358DB2FE067E994D3 /* RACollectionViewTripletLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D3113D831DB4CE6D763A7B33A04A298 /* RACollectionViewReorderableTripletLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90F11130E1A88B7835B60CFAE1A8569D /* Build configuration list for PBXNativeTarget "RACollectionViewReorderableTripletLayout" */;
+			buildPhases = (
+				0300D5BA9E19BFE596B7671A89C71912 /* Sources */,
+				F28F206FA6C6FE16580534119C443696 /* Frameworks */,
+				E22A4432036530EE0C20D263927EC691 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RACollectionViewReorderableTripletLayout;
+			productName = RACollectionViewReorderableTripletLayout;
+			productReference = 149FE5152522F548C164088DB72FB313 /* libRACollectionViewReorderableTripletLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		719CAA8826A3E102D73B65D713EE76C4 /* Pods-iTimerDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A302FDAFB3FA2B4B774DF7E4918248E /* Build configuration list for PBXNativeTarget "Pods-iTimerDiary" */;
+			buildPhases = (
+				9DE7DBBD8C568DB8427CFA3793C5739B /* Sources */,
+				EB623270441545A48BE1683333A928B5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				237AFB3B1035BABE3BC38D1B19FB05B4 /* PBXTargetDependency */,
+				3B8012DD6C53DBB23EDAC0EDBF10C88B /* PBXTargetDependency */,
+			);
+			name = "Pods-iTimerDiary";
+			productName = "Pods-iTimerDiary";
+			productReference = 6101CED6EF2CABE13B54F3EA304381CE /* libPods-iTimerDiary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F8F2A3D2FD9C1AD4FDC4CDAA274BDDBE /* ZYQAssetPickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62FD6443E35A5C74795F4071E9F79EDB /* Build configuration list for PBXNativeTarget "ZYQAssetPickerController" */;
+			buildPhases = (
+				B7B25C3FEB0C0ABD1AAD089F67ED852F /* Sources */,
+				E892A43491FA6C84AA349BB3A5FBEB5F /* Frameworks */,
+				7F8D9A8F79C4BFCB20771CB9A2F1AB21 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYQAssetPickerController;
+			productName = ZYQAssetPickerController;
+			productReference = 5CD2EA0A6FE7C3E5A57EEDBA4C3599F1 /* libZYQAssetPickerController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D915FAD4907363C364A8F29CCB6D2378 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				719CAA8826A3E102D73B65D713EE76C4 /* Pods-iTimerDiary */,
+				1D3113D831DB4CE6D763A7B33A04A298 /* RACollectionViewReorderableTripletLayout */,
+				F8F2A3D2FD9C1AD4FDC4CDAA274BDDBE /* ZYQAssetPickerController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0300D5BA9E19BFE596B7671A89C71912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C28D0F0F730F65BD6D8A1AD93A762A /* RACollectionViewReorderableTripletLayout-dummy.m in Sources */,
+				4CB5EAC25450E244DFCA9A5E46AF9BAB /* RACollectionViewReorderableTripletLayout.m in Sources */,
+				BD63A0C56DFFCEE942FF269A6384C8D2 /* RACollectionViewTripletLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE7DBBD8C568DB8427CFA3793C5739B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E418DA582B42D13EBEC27B91558C5BE0 /* Pods-iTimerDiary-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B25C3FEB0C0ABD1AAD089F67ED852F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDC9323782594161739A04373A3C7BB /* ZYQAssetPickerController-dummy.m in Sources */,
+				C2039E8CA535D7D36E709C398C045E2D /* ZYQAssetPickerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		237AFB3B1035BABE3BC38D1B19FB05B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RACollectionViewReorderableTripletLayout;
+			target = 1D3113D831DB4CE6D763A7B33A04A298 /* RACollectionViewReorderableTripletLayout */;
+			targetProxy = AC0552408D5280B1159742E2DB049428 /* PBXContainerItemProxy */;
+		};
+		3B8012DD6C53DBB23EDAC0EDBF10C88B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZYQAssetPickerController;
+			target = F8F2A3D2FD9C1AD4FDC4CDAA274BDDBE /* ZYQAssetPickerController */;
+			targetProxy = CB700173C33F3FA5BE64E506D63E1610 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B3CEDC265706FD67347B870A5D57AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F99057504AE3F85A063DDBFFB739FF26 /* RACollectionViewReorderableTripletLayout.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RACollectionViewReorderableTripletLayout/RACollectionViewReorderableTripletLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		32EEA56784E9B5ECC406E86FDE259261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD0CE7C5D3CAA5D423E8972A55CAC69 /* ZYQAssetPickerController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZYQAssetPickerController/ZYQAssetPickerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4B4356A42EAFF1C698D57CA469F0A695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4729EB2A35881261BC633E6539271665 /* Pods-iTimerDiary.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5E7BE4A9DC9B720CAF4E7CB03F7B3C40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F99057504AE3F85A063DDBFFB739FF26 /* RACollectionViewReorderableTripletLayout.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RACollectionViewReorderableTripletLayout/RACollectionViewReorderableTripletLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		78C5B986A44F35AA18EE19FBC5C73580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD0CE7C5D3CAA5D423E8972A55CAC69 /* ZYQAssetPickerController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZYQAssetPickerController/ZYQAssetPickerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		888105D4D99E49CAD8D25B97F514C6F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 072324CC8C61E4A2DACB03B18EAB2515 /* Pods-iTimerDiary.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62FD6443E35A5C74795F4071E9F79EDB /* Build configuration list for PBXNativeTarget "ZYQAssetPickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32EEA56784E9B5ECC406E86FDE259261 /* Debug */,
+				78C5B986A44F35AA18EE19FBC5C73580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A302FDAFB3FA2B4B774DF7E4918248E /* Build configuration list for PBXNativeTarget "Pods-iTimerDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4356A42EAFF1C698D57CA469F0A695 /* Debug */,
+				888105D4D99E49CAD8D25B97F514C6F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90F11130E1A88B7835B60CFAE1A8569D /* Build configuration list for PBXNativeTarget "RACollectionViewReorderableTripletLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E7BE4A9DC9B720CAF4E7CB03F7B3C40 /* Debug */,
+				0B3CEDC265706FD67347B870A5D57AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

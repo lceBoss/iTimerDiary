@@ -1,0 +1,13 @@
+PODS:
+  - RACollectionViewReorderableTripletLayout (0.1.0)
+  - ZYQAssetPickerController (1.0.0)
+
+DEPENDENCIES:
+  - RACollectionViewReorderableTripletLayout
+  - ZYQAssetPickerController
+
+SPEC CHECKSUMS:
+  RACollectionViewReorderableTripletLayout: 929208004b2f8c2dde12326bf75b11e902959ddf
+  ZYQAssetPickerController: e5cf51ee6c05fa06746830026c247cb9f6699e84
+
+COCOAPODS: 0.39.0
